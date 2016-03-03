@@ -82,9 +82,10 @@ Author URI: http://www.freshlysqzd.com*/
 
 .title{
 	font-family: "Times New Roman", Georgia, Serif;
-	font-size: 14px;
+	font-size: 13px;
 	color: #F5F5F5;
-	letter-spacing: 1px;
+	letter-spacing: 4px;
+	text-transform: uppercase;
 }
 
 .line{
@@ -129,4 +130,27 @@ Author URI: http://www.freshlysqzd.com*/
 	display: block;
 	width: 100%;
 	height: auto;
+}
+footer{
+	background-color: #39B7EC;
+	padding: 40px 0;
+}
+footer ul{
+	margin: 30px 0 0 0;
+	padding: 0;
+}
+
+footer ul li{
+	list-style: none;
+    font-size: 50px;
+    letter-spacing: -3px;
+	margin-top: -15px;
+}
+
+footer .btn{
+	background-color: #2F99C5;
+}
+
+footer .line{
+	border-bottom: 2px solid #2F99C5;
 }
