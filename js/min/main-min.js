@@ -1,1 +1,1 @@
-$(document).ready(function(){$("#hero-title").addClass("animated fadeIn")});
+$(document).ready(function(){$("#logo").addClass("animated zoomIn")});

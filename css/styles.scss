@@ -15,8 +15,11 @@ Author URI: http://www.freshlysqzd.com
 	color: #3BC5FF;
 }
 
-.logo{
+.logo img{
 	margin-top: 50px;
+	width: 120px;
+	height: auto;
+	display: block;
 }
 
 .jumbotron, html, body{
@@ -34,6 +37,12 @@ Author URI: http://www.freshlysqzd.com
     -o-background-size: cover;
     background-size: cover;
     overflow: hidden;
+    .layer{
+		-webkit-animation: darken 1s linear;
+		-moz-animation: darken 1s linear;
+		-o-animation: darken 1s linear;
+		animation: darken 1s linear;
+    }
 }
 
 .hero-title{
@@ -44,12 +53,12 @@ Author URI: http://www.freshlysqzd.com
 		font-weight: bold;
 		text-transform: uppercase;
 	}
-	p{
+	.details{
 	    font-family: "Times New Roman", Georgia, Serif;
 	    font-weight: 100;
 	    line-height: 24px;
 		font-size: 18px;
-	    color: #B4B4B4;
+	    color: #CCCCCC;
 	    letter-spacing: 3px;
 	}
 }
@@ -58,7 +67,12 @@ Author URI: http://www.freshlysqzd.com
 	position: relative;
     width: 100%;
     height: 100%;
-    background: rgba(18, 23, 27, .7);
+	background: rgba(18, 23, 27, .7);
+}
+
+@keyframes darken {
+   from { background: rgba(18, 23, 27, .9) }
+     to { background: rgba(18, 23, 27, .7) }
 }
 
 .info{
@@ -66,31 +80,8 @@ Author URI: http://www.freshlysqzd.com
 	padding: 200px 0;
 }
 
-.bottom{
-	margin-top: 30%;
-}
-
-.details{
-	padding: 0 60px;
-	h3{
-		margin-top: 30px;
-		color: #fff;
-	    font-size: 50px;
-	    line-height: 60px;
-	    letter-spacing: -3px;
-	}
-	p{
-		font-family: "Times New Roman", Georgia, Serif;
-		font-size: 14px;
-		color: #828282;
-	}
-}
-
-.book .details h3{
-	color: #12171B;
-}
-
-.title{
+// Type Style
+.heading{
 	font-family: "Times New Roman", Georgia, Serif;
 	font-size: 13px;
 	color: #F5F5F5;
@@ -105,40 +96,24 @@ Author URI: http://www.freshlysqzd.com
 	    margin-top: 10px;
 	}
 }
-
-.btn{
-	background-color: #3BC5FF;
-	margin-top: 20px;
-	border-radius: 0;
-	color: #f0f0f0;
-	letter-spacing: .5px;
-	padding: 10px 30px;
+.title{
+	margin-top: 30px;
+	color: #fff;
+    font-size: 50px;
+    line-height: 60px;
+    letter-spacing: -3px;
 }
-
-.app{
-    width: 100%; height: 90%;
-    background: url("../img/app-bg.jpg") no-repeat center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    overflow: hidden;
-}
-
-.app .layer{
-    background: rgba(18, 23, 27, .9);
-}
-
-.app-title{
-    position: absolute;
-	bottom: 50px;
+.details{
+	font-family: "Times New Roman", Georgia, Serif;
+	font-size: 16px;
+	color: #828282;
 }
 
 .book{
 	background-color: #F5F5F5;
-    width: 100%;
-    height: 90%;
-    .title{
+	padding: 100px 0;
+
+    .heading{
 		color: #262626;
 	}
 	img{
@@ -146,9 +121,47 @@ Author URI: http://www.freshlysqzd.com
 		border: 25px solid #FFFFFF;
 		box-shadow: 5px 10px 50px 0px rgba(0,0,0,0.50);
 		display: block;
-		width: 100%;
+		width: 80%;
 		height: auto;
+		margin: 0 auto;
 	}
+	.title{
+		color: #12171B;
+	}
+}
+
+
+.btn{
+	transition: all 0.5s ease;
+	background-color: #3BC5FF;
+	margin-top: 20px;
+	border-radius: 0;
+	color: #f0f0f0;
+	letter-spacing: .5px;
+	padding: 10px 30px;
+	&:hover{
+		background-color: #34B0E4;
+		color: #FFFFFF;
+	}
+}
+
+.app{
+    width: 100%;
+    height: 95%;
+    background: url("../img/app-bg.jpg") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    overflow: hidden;
+    .layer{
+	    background: rgba(18, 23, 27, .9);
+	}
+}
+
+.app-title{
+    position: absolute;
+	bottom: 50px;
 }
 
 .newsletter{
@@ -199,7 +212,7 @@ footer{
 	.btn{
 		background-color: #2F99C5;
 	}
-	.title:after {
+	.heading:after {
 	    content: '';
 	    width: 44px;
 	    height: 2px;
@@ -209,16 +222,8 @@ footer{
 	}
 }
 
-// animation
-
-#hero-title {
-	-webkit-animation-delay: .2s;
-	-moz-animation-delay: .2s;
-	-o-animation-delay: .2s;
-	animation-delay: .2s;
-
-	-webkit-animation-duration: .5s;
-	-moz-animation-duration: .5s;
-	-o-animation-duration: .5s;
-	animation-duration: .5s;
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
 }
