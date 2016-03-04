@@ -49,7 +49,7 @@ Author URI: http://www.freshlysqzd.com*/
 	position: relative;
     width: 100%;
     height: 100%;
-    background: rgba(18, 23, 27, .9);
+    background: rgba(18, 23, 27, .7);
 }
 
 .info{
@@ -87,11 +87,13 @@ Author URI: http://www.freshlysqzd.com*/
 	letter-spacing: 4px;
 	text-transform: uppercase;
 }
-
-.line{
-	width: 50px;
-	display: block;
-	border-bottom: 2px solid #3BC5FF;
+.title:after {
+    content: '';
+    width: 44px;
+    height: 2px;
+    background: #3BC5FF;
+    display: block;
+    margin-top: 10px;
 }
 .btn{
 	background-color: #3BC5FF;
@@ -110,6 +112,10 @@ Author URI: http://www.freshlysqzd.com*/
     -o-background-size: cover;
     background-size: cover;
     overflow: hidden;
+}
+
+.app .layer{
+    background: rgba(18, 23, 27, .9);
 }
 .app-title{
     position: absolute;
@@ -131,9 +137,35 @@ Author URI: http://www.freshlysqzd.com*/
 	width: 100%;
 	height: auto;
 }
+
+.newsletter{
+	background-color: #12171B;
+	padding: 100px 0;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: 40px;
+    padding: 6px 12px;
+    font-size: 24px;
+    margin: 10px 0;
+    line-height: 1.42857143;
+    font-weight: 100;
+    color: #555;
+    background-color: #fff;
+	background-image: none;
+	border: none;
+    border-radius: 0px;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	-webkit-transition: none;
+	transition: none;
+}
+
 footer{
 	background-color: #39B7EC;
-	padding: 40px 0;
+	padding: 50px 0;
 }
 footer ul{
 	margin: 30px 0 0 0;
@@ -151,6 +183,11 @@ footer .btn{
 	background-color: #2F99C5;
 }
 
-footer .line{
-	border-bottom: 2px solid #2F99C5;
+footer .title:after {
+    content: '';
+    width: 44px;
+    height: 2px;
+    background: #2F99C5;
+    display: block;
+    margin-top: 10px;
 }
