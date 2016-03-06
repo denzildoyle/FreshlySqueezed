@@ -324,7 +324,7 @@ footer{
 		text-align: center;
 	}
 	ul{
-		margin: 20px 0 0 0;
+		margin: 15px 0 0 0;
 		padding: 0;
 		li{
 			text-align: center;
@@ -355,6 +355,11 @@ footer{
 	footer{
 		.heading{
 			margin-top: 100px;
+		}
+	}
+	.services{
+		.title{
+			margin-top: 60px;
 		}
 	}
 }
