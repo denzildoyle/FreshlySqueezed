@@ -269,6 +269,21 @@ footer{
 	.logo ul{
 		display: none;
 	}
+	.book img{
+		border: 15px solid #FFFFFF;
+	}
+	footer{
+		.heading{
+			margin-top: 100px;
+		}
+	}
+}
+
+@media only screen and (max-width: 990px) {
+	.book img{
+		margin: 0 auto;
+		margin-bottom: 80px;
+	}
 }
 
 /* Smartphones (portrait and landscape) ----------- */
