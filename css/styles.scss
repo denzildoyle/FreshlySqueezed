@@ -257,6 +257,37 @@ footer{
     float: none;
 }
 
+.subpage-header{
+	margin-bottom: 100px;
+	.logo{
+		img{
+			fill: #000;
+		}
+	}
+	.heading{
+		color: #333;
+	}
+	.title{
+		color: #000;
+		font-weight: bolder;
+	}
+	.heading:after {
+	    background: #2F99C5;
+	}
+
+	.logo{
+		li{
+			a{
+				color: #666666;
+			}
+			a:hover{
+				text-decoration: none;
+				color: #3BC5FF;
+			}
+		}
+	}
+}
+
 //responsive
 
 @media only screen and (max-width: 1200px) {
