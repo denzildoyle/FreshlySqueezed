@@ -257,13 +257,15 @@ footer{
     float: none;
 }
 
-.subpage-header{
+.subpage-header, .about-team{
 	margin-bottom: 100px;
+
 	.logo{
-		img{
-			fill: #000;
-		}
+		margin-bottom: 80px;
+		display: block;
+		overflow: hidden;
 	}
+
 	.heading{
 		color: #333;
 	}
@@ -284,6 +286,53 @@ footer{
 				text-decoration: none;
 				color: #3BC5FF;
 			}
+		}
+	}
+}
+
+.about-team{
+	padding-top: 100px;
+}
+
+.divider{
+	margin: 50px auto;
+	width: 100px;
+	border: 1px solid #f1f1f1;
+	display: block;
+	clear: all;
+}
+
+.services{
+
+	background: url("../img/bg-img2.jpg") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    overflow: hidden;
+
+	.layer{
+		-webkit-animation: darken 1s linear;
+		-moz-animation: darken 1s linear;
+		-o-animation: darken 1s linear;
+		animation: darken 1s linear;
+	}
+	.dots{
+		padding: 100px 0 80px;
+	}
+	.title{
+		text-align: center;
+	}
+	ul{
+		margin: 20px 0 0 0;
+		padding: 0;
+		li{
+			text-align: center;
+			font-family: Serif, Georgia, "Times New Roman";
+			list-style: none;
+		    font-size: 20px;
+		    letter-spacing: .5px;
+			color: #ccc;
 		}
 	}
 }
