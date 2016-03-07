@@ -257,7 +257,7 @@ footer{
     float: none;
 }
 
-.subpage-header, .about-team{
+.subpage-header, .about-team, .clients{
 	margin-bottom: 100px;
 
 	.logo{
@@ -287,6 +287,13 @@ footer{
 				color: #3BC5FF;
 			}
 		}
+	}
+
+	.client{
+		width: 100%;
+		display: block;
+		height: auto;
+		margin-bottom: 30px;
 	}
 }
 
