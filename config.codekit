@@ -63,17 +63,6 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/img\/app-bg.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1.56604e+06,
-		"inputAbbreviatedPath": "\/img\/app-bg.jpg",
-		"outputAbbreviatedPath": "\/img\/app-bg.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/img\/bg-img.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -114,6 +103,72 @@
 		"initialSize": 4955,
 		"inputAbbreviatedPath": "\/img\/client.png",
 		"outputAbbreviatedPath": "\/img\/client.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/events-caribbean.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.56604e+06,
+		"inputAbbreviatedPath": "\/img\/events-caribbean.jpg",
+		"outputAbbreviatedPath": "\/img\/events-caribbean.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/free-food-photography.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 141526,
+		"inputAbbreviatedPath": "\/img\/free-food-photography.jpg",
+		"outputAbbreviatedPath": "\/img\/free-food-photography.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/hunger-fix.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 326044,
+		"inputAbbreviatedPath": "\/img\/hunger-fix.jpg",
+		"outputAbbreviatedPath": "\/img\/hunger-fix.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/jk-clothing.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 83614,
+		"inputAbbreviatedPath": "\/img\/jk-clothing.jpg",
+		"outputAbbreviatedPath": "\/img\/jk-clothing.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/location-scout.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 207143,
+		"inputAbbreviatedPath": "\/img\/location-scout.png",
+		"outputAbbreviatedPath": "\/img\/location-scout.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/trinidad-jobs-dot-info.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.16843e+06,
+		"inputAbbreviatedPath": "\/img\/trinidad-jobs-dot-info.jpg",
+		"outputAbbreviatedPath": "\/img\/trinidad-jobs-dot-info.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
